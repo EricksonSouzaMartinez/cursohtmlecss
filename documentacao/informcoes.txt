@@ -1,0 +1,5 @@
+<label>Descrição do input
+<label for="AQUIidINPUT"> vincula a label ao input
+<input> Campo onde será digitado a informação pode ter varios tipos ex: text, number, tel;
+<input type="Submit"> server para enviar as informações do formulário
+<input type="Submit" value"Novo nome do input de envio">
