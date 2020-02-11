@@ -1,0 +1,4 @@
+width largura;
+margin a auto; alinhamento ao centro;
+<p> display tipo block, ocupam 100% da largura da pagina
+<label> ou <input> display tipo inline ocupam apenas o tamanho do conteudo
