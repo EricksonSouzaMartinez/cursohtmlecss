@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<div class="caixa">
-			<h1><img src="imagens/logo.png"></h1>
+			<h1><img src="imagens/logo.png" alt="logo da barbearia alura"></h1>
 
 			<nav>
 				<ul>
@@ -33,10 +33,10 @@
 			<input class="input-padrao" type="tel" maxlength="11" required id="telefone" placeholder="(00) 00000-0000">
 			<label for="msg">Mansagem</label>
 			<textarea class="input-padrao" id="msg" required cols="47" rows="10" placeholder="Digite aqui seu texto"></textarea>
-			<div>
-				<p>
+			<fieldset>
+				<legend>
 					Como Prefere O Nosso Contato
-				</p>
+				</legend>
 				<label for="radio-email">
 					<input type="radio" value="email" id="radio-email" name="contato">
 					Email
@@ -51,11 +51,11 @@
 					<input type="radio" checked value="Whatsapp" id="radio-whatsapp" name="contato">
 					Whatsapp
 				</label>
-			</div>
-			<div>
-				<p>
+			</fieldset>
+			<fieldset>
+				<legend>
 					Qual horario prefere ser atendido?
-				</p>
+				</legend>
 				<select>
 					<option>Manha</option>
 
@@ -63,14 +63,14 @@
 
 					<option>Noite</option>
 				</select>
-			</div>
+			</fieldset>
 			<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail</label>
 			<input type="submit" value="Enviar Formulário" class="enviar">
 
 		</form>
 	</main>
 	<footer>
-		<img src="imagens/logo-branco.png">
+		<img src="imagens/logo-branco.png" alt="logo da barbearia alura">
 		<p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
 	</footer>
 </body>
