@@ -121,15 +121,18 @@ form label, form legend {
 }
 
 .enviar{
-	width: 400px;
+	width: 40%;
 	padding: 15px 0;
 	color: white;
 	background: orange;
 	font-size: 18px;
 	font-weight: bold;
+	border: none;
 	border-radius: 5px;
-	transition: 1.5s background;
+	transition: 3s all;
+	cursor: pointer;
 }
 .enviar:hover{
-	background: rgb(191, 194, 42);
+	background: lightblue;
+	transform: scale(1.2);
 }
