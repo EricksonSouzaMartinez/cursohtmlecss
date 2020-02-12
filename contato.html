@@ -26,25 +26,34 @@
 	<main>
 		<form>
 			<label for="nomesobenome">Nome e Sobrenome</label>
-			<input type="text" id="nomesobenome" placeholder="Digite o nome e Sobrenome">
+			<input class="input-padrao" type="text" id="nomesobenome" placeholder="Digite o nome e Sobrenome">
 			<label for="email">E-mail</label>
-			<input type="email" id="email" placeholder="exemplo@email.com.br">
+			<input class="input-padrao" type="email" id="email" placeholder="exemplo@email.com.br">
 			<label for="telefone">Telefone</label>
-			<input type="tel" id="telefone" placeholder="(00) 00000-0000">
+			<input class="input-padrao" type="tel" id="telefone" placeholder="(00) 00000-0000">
 			<label for="msg">Mansagem</label>
-			<textarea id="msg" cols="56" rows="10" placeholder="Digite aqui seu texto"></textarea>
+			<textarea class="input-padrao" id="msg" cols="47" rows="10" placeholder="Digite aqui seu texto"></textarea>
 			<div>
 				<p>
 					Como Prefere O Nosso Contato
 				</p>
-				<label for="radio-email">Email</label>
-				<input type="radio" value="email" id="radio-email" name="contato">
-				<label for="radio-telefone">Telefone</label>
-				<input type="radio" value="telefone" id="radio-telefone" name="contato">
-				<label for="radio-whatsapp">Whatsapp</label>
-				<input type="radio" value="Whatsapp" id="radio-whatsapp" name="contato">
+				<label for="radio-email">
+					<input type="radio" value="email" id="radio-email" name="contato">
+					Email
+				</label>
+
+				<label for="radio-telefone">
+					<input type="radio" value="telefone" id="radio-telefone" name="contato">
+					Telefone
+				</label>
+
+				<label for="radio-whatsapp">
+					<input type="radio" value="Whatsapp" id="radio-whatsapp" name="contato">
+					Whatsapp
+				</label>
+
 			</div>
-			<label><input type="checkbox">Gostaria de receber nossas novidades por e-mail</label>
+			<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail</label>
 			<input type="submit" value="Enviar Formulário">
 
 		</form>
