@@ -28,3 +28,10 @@ Nesta aula, PARTE4-AULA02:
 A utilizar fontes externas nas nossas páginas
 Como incorporar um mapa à nossa página
 Como incorporar um vídeo à nossa página
+
+Nesta aula, PARTE4-AULA03:
+
+A melhorar mais ainda a semântica da página principal, com novas divisões, classes, etc
+Novas pseudo-classes
+Como aplicar um background gradiente na página
+Pseudo-elementos
