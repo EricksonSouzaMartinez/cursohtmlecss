@@ -174,7 +174,7 @@ td, th {
 }
 
 .utensilios {
-	width: 120px;
+	width: calc(40% - 20%);
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -259,3 +259,22 @@ td, th {
 .imagembeneficios:hover {
 	opacity: 1;
 }
+
+
+/*
+main > section {
+	background: red ; seleciona o filho direto
+}
+
+img + p{
+	background: red; seleciona o 1 fiho
+}
+
+img ~ p {
+    background: yellow; selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~
+} 
+
+.principal p:not(#missao){
+	background: yellow; seleciona todos menos o not(#missao)
+}
+*/
