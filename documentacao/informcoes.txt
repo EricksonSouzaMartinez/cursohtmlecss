@@ -16,9 +16,15 @@ A tag th, que representa a célula do cabeçalho da tabela
 A tag tfoot, que representa o rodapé da tabela
 A estilizar a tabela
 
-Nesta aula, PARTE4-AULA02:
+Nesta aula, PARTE4-AULA01:
 
 A ajustar a página principal para utilizar os mesmos padrões da página de produtos
 Medidas proporcionais com CSS
 Como funciona a flutuação dos elementos e como modificá-la, com a propriedade float do CSS
 Como limpar o float, com a propriedade clear do CSS
+
+Nesta aula, PARTE4-AULA02:
+
+A utilizar fontes externas nas nossas páginas
+Como incorporar um mapa à nossa página
+Como incorporar um vídeo à nossa página
