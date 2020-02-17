@@ -234,6 +234,7 @@ td, th {
 .imagembeneficios {
 	width: 60%;
 	opacity: 0.8;
+	transition: 3s;
 }
 
 .mapa {
@@ -258,6 +259,7 @@ td, th {
 
 .imagembeneficios:hover {
 	opacity: 1;
+	box-shadow: 10px 10px #555555, -10px 10px #555555;
 }
 
 
