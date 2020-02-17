@@ -62,3 +62,9 @@ Como adicionar um sombreamento em volta dos elementos, com a propriedade CSS box
 Como adicionar um sombreamento em textos, com a propriedade CSS text-shadow
 DISCUTIR NO FORUM
 
+Nesta aula, PARTE4-AULA06:
+
+Design responsivo: como ajustar o estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse
+Meta tag de Viewport
+Media Queries
+
